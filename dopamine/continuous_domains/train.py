@@ -22,7 +22,7 @@ flags.DEFINE_multi_string(
     '"dopamine/jax/agents/sac/configs/sac.gin").')
 flags.DEFINE_multi_string(
     'gin_bindings', [],
-    'Gin bindings to override the values set in the config files.')
+    'Gin bindings to override the values set in the config files.')"""
 
 FLAGS = flags.FLAGS
 
